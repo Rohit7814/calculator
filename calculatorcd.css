@@ -1,0 +1,357 @@
+#container{
+    height: 74vh;
+    width: 56vh;
+   /* border: 2px solid red;*/
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+#con_heading{
+    height: 11%;
+    width: 95%;
+    border: 2px solid lightgrey;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    background-color: black;
+}   
+.con_head{
+    font-size: 2.8rem;
+    position: absolute;
+    left: 24%;
+    top: -66%;
+color: white;
+}
+#con_result{
+    height: 20%;
+    width: 95%;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    border: 2px solid lightgrey;
+    background-color: white;
+    opacity: 39%;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: end;
+}
+#con_main{
+    height: 60%;
+    width: 97%;
+    position: absolute;
+    top: 38%;
+    left: 1%;
+   /* border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_line1{
+    height: 17%;
+    width: 98%;
+    position: absolute;
+  /* border: 2px solid red;*/
+    top: 2%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_line2{
+    height: 17%;
+    width: 98%;
+    position: absolute;
+    /*border: 2px solid red;*/
+    top: 22%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_line3{
+    height: 17%;
+    width: 98%;
+    position: absolute;
+  /*  border: 2px solid red;*/
+    top: 42%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_line4{
+    height: 17%;
+    width: 98%;
+    position: absolute;
+  /*  border: 2px solid red;*/
+    top: 62%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_line5{
+    height: 17%;
+    width: 98%;
+    position: absolute;
+  /*  border: 2px solid red;*/
+    top: 82%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_inner1{
+    height: 77%;
+    width: 26%;
+    position: absolute;
+    left: 2%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_inner1:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_inner2{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 30%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_inner2:hover{
+    background-color: rgb(139, 139, 98);
+} 
+.main_inner3{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_inner3:hover{
+    background-color:rgb(139, 139, 98);
+}
+.main_inner4{
+    height: 77%;
+    width: 20%;
+    position: absolute;
+    left: 79%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(220, 79, 79);
+    
+}
+.main_inner4:hover{
+    background-color:rgb(139, 139, 98);
+}
+.inner_head{
+    font-size: 143%;
+    text-align: center;
+    position: absolute;
+    top: -28%;
+    left: 35%;
+
+}
+.main_line21{
+    height: 77%;
+    width: 26%;
+    position: absolute;
+    left: 2%;
+    top: 9%;
+    border: 2px solid lightgrey;   
+    background-color: rgb(199, 185, 185);
+}
+.main_line21:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line22{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 30%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line22:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line23{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line23:hover{
+    background-color: rgb(139, 139, 98);
+}
+
+.main_line24{
+    height: 77%;
+    width: 20%;
+    position: absolute;
+    left: 79%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(220, 79, 79);
+}
+
+.main_line24:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line31{
+    height: 77%;
+    width: 26%;
+    position: absolute;
+    left: 2%;
+    top: 9%;
+    border: 2px solid lightgrey; 
+    background-color: rgb(199, 185, 185);  
+}
+.main_line31:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line32{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 30%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line32:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line33{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line33:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line34{
+    height: 77%;
+    width: 20%;
+    position: absolute;
+    left: 79%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(220, 79, 79);
+}
+.main_line34:hover{
+    background-color: rgb(139, 139, 98);
+}
+
+
+.main_line41{
+    height: 77%;
+    width: 26%;
+    position: absolute;
+    left: 2%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line41:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line42{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 30%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}.main_line42:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line43{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line43:hover{
+    background-color: rgb(139, 139, 98);
+}
+
+.main_line44{
+    height: 77%;
+    width: 20%;
+    position: absolute;
+    left: 79%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(220, 79, 79);
+    
+}
+.main_line44:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line51{
+    height: 77%;
+    width: 50%;
+    border: 2px solid lightgrey;
+    position: absolute;
+    left: 2%;
+    top: 9%;
+    background-color: rgb(199, 185, 185);
+}
+.main_line51:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line52{
+    height: 77%;
+    width: 20%;
+    position: absolute;
+    left: 79%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(220, 79, 79);
+    
+}
+.main_line52:hover{
+    background-color: rgb(139, 139, 98);
+}
+.main_line53{
+    height: 77%;
+    width: 22%;
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    border: 2px solid lightgrey;
+    background-color: rgb(199, 185, 185);
+}
+.main_line53:hover{
+    background-color: rgb(139, 139, 98);
+}
+
+
